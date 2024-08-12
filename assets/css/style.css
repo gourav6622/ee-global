@@ -393,7 +393,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color:#fafafa;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -402,7 +402,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #222222;
+  color: #E3193E;
 }
 
 .navbar-mobile>ul>li {
@@ -418,7 +418,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #106eea;
+  color: black;
 }
 
 .navbar-mobile .getstarted,
@@ -791,7 +791,7 @@ section {
 }
 
 .featured-services .icon i {
-  font-size: 48px;
+  font-size: 38px;
   line-height: 1;
   color:#E3193E ;
   transition: all 0.3s ease-in-out;
@@ -1124,7 +1124,16 @@ section {
 .service-card {
   background-color: white;
   /* border: 2px solid rgb(227, 212, 212); */
+} 
+/* Custom CSS for small font sizes in service cards */
+.service-card h5 {
+  font-size: 0.875rem; /* Adjust the font size as needed */
 }
+
+.service-card p {
+  font-size: 0.75rem; /* Adjust the font size as needed */
+}
+
 .testimonials::before {
   content: "";
   position: absolute;
@@ -1262,7 +1271,7 @@ section {
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(237, 224, 224, 0.9);
   padding: 15px;
 }
 
